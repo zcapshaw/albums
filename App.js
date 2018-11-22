@@ -5,16 +5,7 @@ import Header from './src/components/header';
 export default class App extends React.Component {
   render() {
     return (
-        <Header />
+        <Header headerText={'Albums'} />
     );
   }
 }
-
-// const styles = StyleSheet.create({
-//   container: {
-//     flex: 1,
-//     backgroundColor: '#fff',
-//     alignItems: 'center',
-//     justifyContent: 'center',
-//   },
-// });
